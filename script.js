@@ -1,7 +1,17 @@
-document.getElementById('btn-id').addEventListener('click',function(){
-    //console.log('clicked')
-    document.body.style.backgroundColor='gray';
-})
+// document.getElementById('btn-id').addEventListener('click',function(){
+//     //console.log('clicked')
+//     document.body.style.backgroundColor='gray';
+// })
+function setcolor(){
+   let color='#'+ Math.floor(Math.random()*16777215).toString(16);
+   return color
+}
+function getcolor(){
+   let colors=setcolor();
+   document.body.style.backgroundColor=colors;
+}
+document.getElementById('btn-id').addEventListener('click',getcolor);
+
 
 document.getElementById('big-one').addEventListener('click',function(){
     window.location.href="./main.html"
