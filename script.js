@@ -146,14 +146,6 @@ document.getElementById('comp6').addEventListener('click',function(){
 })
 
 
-
-
-//  function getInputId(id){
-//     const id=document.getElementById(id).innerText;
-//     const convertedId=parseInt(id);
-//     return convertedId
-//  }
-
 function AMOrPM(date){
    let hours=date.getHours();
    let Minutes=date.getMinutes();
