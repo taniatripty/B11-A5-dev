@@ -12,8 +12,8 @@
         <nav >
             <div class="navbar relative top-5 bg-base-100">
                 <div class="flex-1">
-                    <img src="assets/logo.png" alt="">
-                  <a class="btn btn-ghost text-xl text-gray-900 font-extralight">Dev <span class="font-bold ">Board</span></a>
+                    <img class="size-8 mr-2" src="assets/logo.png" alt="">
+                  <a class=" text-xl text-gray-900 font-extralight">Dev<span class="font-bold">Board</span></a>
                 </div>
                 <div class="flex-none gap-7">
                   <button id="main-btn" class="btn bg-blue-500 ">Back to Desk</button>
@@ -44,17 +44,17 @@
         <div class="mt-5 bg-white p-4">
             <p class="text-xl font-bold mb-3">Question-3: What is event delegation in the DOM?</p>
             <hr class="border border-gray-400">
-            <p class="text-gray-500 font-extralight mt-3 mb-3">In the DOM, "event delegation" is a JavaScript technique where you attach a single event listener to a parent element instead of adding listeners to multiple child elements</p>
+            <p class="text-gray-500 font-extralight mt-3 mb-3">Instead of adding an event listener to each child element, we add one listener to the parent and let it handle events for all its children.Here we use only one event listener.Event delegation use when we handling clicks on lists, tables, or menus and here elements are added dynamically.</p>
         </div>
         <div class="mt-5 bg-white p-4">
             <p class="text-xl font-bold mb-3">Question-4: What is event bubbling in the DOM?</p>
             <hr class="border border-gray-400">
-            <p class="text-gray-500 font-extralight mt-3 mb-3">Event bubbling in JavaScript is a mechanism where an event triggered on a child element propagates upward through its ancestors in the DOM</p>
+            <p class="text-gray-500 font-extralight mt-3 mb-3">Event bubbling is when an event starts at the target element and then moves up (bubbles) through its parent elements until it reaches the document.We use event.stopPropagation() to stop event bubbling.</p>
         </div>
         <div class="mt-5 bg-white p-4">
             <p class="text-xl font-bold mb-3">Question-5: How do you create, add, and remove elements using JavaScript?</p>
             <hr class="border border-gray-700">
-            <p class="text-gray-500 font-extralight mt-3 mb-3">In JavaScript, use document.createElement() to create elements. Add them with appendChild(), append(), prepend(), or insertBefore(). Remove elements using remove() or removeChild(). Replace elements with replaceChild().</p>
+            <p class="text-gray-500 font-extralight mt-3 mb-3">To create a new element, use the document.createElement() method.Once an element is created, we can add it to the page using different methods: 1. appendChild() - Adds at the end of a parent 2.innerHTML - Inserts elements as HTML 3.append() - Adds multiple elements or text.Removing Elements from the DOM- 1.remove() -Removes an element directly 2.removeChild() - Removes a specific child element </p>
         </div>
 
     </main>

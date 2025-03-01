@@ -13,8 +13,8 @@
         <nav >
             <div class="navbar relative top-5 bg-base-100">
                 <div class="flex-1">
-                    <img src="assets/logo.png" alt="">
-                  <a class="btn btn-ghost text-xl text-gray-900 font-extralight">Dev <span class="font-bold ">Board</span></a>
+                    <img class="size-8 mr-2" src="assets/logo.png" alt="">
+                  <a class=" text-xl text-gray-900 font-extralight">Dev<span class="font-bold ">Board</span></a>
                 </div>
                 <div class="flex-none gap-7">
                   <div class="bg-slate-100 rounded-full gap-2 flex px-4 py-2">
@@ -32,18 +32,20 @@
                 <div class="flex bg-slate-50 flex-col flex-grow p-6">
                     <div class="flex gap-2">
 
-                   <div class="flex gap-2 px-4 py-2 bg-blue-100 border border-blue-50">
-                    <img class="size-7 mt-2" src="assets/checkbox.png" alt="">
+                   <div class="flex gap-4 px-4 py-2 bg-blue-100 border border-blue-50">
+                    <div class="h-12 w-12 rounded-full bg-white">
+                    <img class="size-6 m-3" src="assets/checkbox.png" alt="">
+                  </div>
                     <div class="flex flex-col">
                         <h1>Task Assigned </h1>
-                        <h2 id="btn-dynamic">6</h2>
+                        <h2 id="btn-dynamic" class="font-bold">6</h2>
                     </div>
                    </div>
                    <div id="big-one" class="flex-1 gap-2 px-4 py-2 bg-gradient-to-tr to-blue-50 from-blue-700 border border-blue-500">
                     <div class="flex gap-2">
-                    <img class="size-7 mt-2" src="assets/checkbox.png" alt="">
+                    <img class=" mt-2" src="assets/board.png" alt="">
                    
-                        <h1>Discover Something <br> New Today! </h1>
+                        <h1 class="text-gray-100 relative top-7 text-xl ">Discover Something  New Today! </h1>
                     </div>
                     
                    </div>
@@ -51,7 +53,7 @@
                     <div class="h-11 w-11 rounded-full bg-white p-2">
                     <img class="text-center" class="size-7  mt-2" src="assets/calender.png" alt="">
                   </div>
-                        <h1 id="demo" class="mt-2"> </h1>
+                        <h1 id="demo" class="mt-2 text-xs"> </h1>
                        
                     
                    </div>
@@ -199,6 +201,7 @@
                    <div class="flex justify-center">
                    <button id="History-btn" class="btn bg-blue-500">Clear History</button>
                 </div>
+                <hr class="border border-gray-200 mt-3">
                 <div id="History-id" class="px-1 text-xs mt-3 mb-3 ">
                   
                 </div>
